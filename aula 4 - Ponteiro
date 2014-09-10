@@ -1,0 +1,18 @@
+// meu primeiro ponteiro
+#include <iostream>
+using namespace std;
+
+int main ()
+{
+	int firstvalue, secondvalue;
+	int * mypointer;
+	
+	mypointer = &firstvalue;
+	*mypointer = 10;
+	mypointer = &secondvalue;
+	*mypointer = 20;
+
+	cout << "O primeiro valor e " << firstvalue <<'\n';
+	cout<< "O segundo valor e " << secondvalue << '\n';
+	return 0;
+}
